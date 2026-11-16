@@ -1,2 +1,2 @@
-# Portfolio-Python
-Portofolio di progetti Python
+# PortfOlio-Python
+Portfolio di progetti Python
