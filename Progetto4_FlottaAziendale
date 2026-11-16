@@ -1,0 +1,21 @@
+- SPECIFICHE DEL PROGETTO
+
+Con questo progetto si e' deciso di andare ad implementare un sistema semplice per gestire i veicoli di una flotta aziendale.
+
+Usa un dizionario globale chiamato flotta_veicoli, in cui le chiavi sono i modelli dei veicoli (stringhe) e i valori sono i numeri di unità disponibili (interi).
+
+Funzioni richieste:
+
+aggiungi_veicolo(modello, unita): Aggiunge un nuovo veicolo alla flotta con il numero di unità specificato. Se il veicolo esiste già, aggiorna il numero di unità aggiungendo quelle nuove.
+
+rimuovi_veicolo(modello): Rimuove completamente un veicolo dalla flotta. Se il veicolo non esiste, la funzione deve stampare un messaggio di errore.
+
+verifica_disponibilita(modello): Restituisce True se il veicolo è disponibile (almeno un'unità), False altrimenti.
+
+prenota_veicolo(modello): Riduce di uno il numero di unità disponibili per un veicolo (se il veicolo è disponibile). Se il veicolo non è disponibile, stampa un messaggio di errore.
+
+statistiche_flotta(): Restituisce un dizionario contenente:
+
+totale_veicoli: il numero totale di modelli nella flotta.
+unita_totali: il numero totale di unità per tutti i veicoli.
+media_unita: il numero medio di unità per modello.
